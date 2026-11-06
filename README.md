@@ -4,7 +4,6 @@
 
 ![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?logo=windows&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?logo=powershell&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ResToggle tourne en arrière-plan et attend un raccourci clavier global (**Ctrl+Alt+R** par défaut). À chaque appui, il passe d'une résolution à l'autre (par exemple **1920×1080 ⇄ 1280×960**) et garde le taux de rafraîchissement actuel (240 Hz, 144 Hz…).
 
@@ -90,7 +89,3 @@ Le script compile à la volée une petite classe C# (`Add-Type`) qui appelle `us
 - `RegisterHotKey` et `GetMessage` pour écouter le raccourci global
 - `EnumDisplaySettings` pour lire la résolution actuelle et celles que l'écran accepte
 - `ChangeDisplaySettings` pour appliquer la nouvelle résolution, avec le même taux de rafraîchissement si possible
-
-## 📄 Licence
-
-Distribué sous licence [MIT](LICENSE).
